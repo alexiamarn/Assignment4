@@ -3,7 +3,7 @@
 @smoke
 Scenario: Successfull login with valid credentials
 	Given user navigates to homepage
-	When user logins with username alma and password 12345
+	When user logins with username alex and password 123
 	Then the user is successfully logged in
 
 
